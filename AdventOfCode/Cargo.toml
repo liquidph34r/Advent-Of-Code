@@ -1,0 +1,11 @@
+[workspace.package]
+name = "AdventOfCode"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["crates/*", "resources/*"]
+
+[workspace.dependencies]
+aoc1 = { path = "./crates/aoc1", version = "0.0.0" }
+aoc2 = { path = "./crates/aoc2", version = "0.0.0" }
